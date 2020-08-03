@@ -1,0 +1,14 @@
+{
+    "name": "leocavalcante/create-siler-app",
+    "description": "Setup a Siler application with some opinionated defaults.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leocavalcante",
+            "email": "lc@leocavalcante.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
