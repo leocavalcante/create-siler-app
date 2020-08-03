@@ -1,5 +1,5 @@
 {
-    "name": "leocavalcante/create-siler-app",
+    "name": "siler/app",
     "description": "Setup a Siler application with some opinionated defaults.",
     "type": "project",
     "license": "MIT",
