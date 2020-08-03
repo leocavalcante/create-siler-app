@@ -1,10 +1,9 @@
 # create-siler-app
+🧱 Set up a modern Siler app by running one command.
 
 ```bash
 composer create-project siler/app
 ```
-
-🧱 Set up a modern Siler app by running one command.
 
 ## Scripts
 
