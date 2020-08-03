@@ -1,6 +1,6 @@
 {
     "name": "siler/app",
-    "description": "Setup a Siler application with some opinionated defaults.",
+    "description": "Set up a modern Siler app by running one command.",
     "type": "project",
     "license": "MIT",
     "authors": [
