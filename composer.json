@@ -13,7 +13,8 @@
     "prefer-stable": true,
     "scripts": {
         "test": "pest",
-        "start": ["Composer\\Config::disableProcessTimeout", "php -S localhost:8080 srv/sapi.php"]
+        "start": ["Composer\\Config::disableProcessTimeout", "php -S localhost:8080 srv/sapi.php"],
+        "swoole": ["Composer\\Config::disableProcessTimeout", "php srv/swoole.php"]
     },
     "require": {
         "leocavalcante/siler": "^1.7",
