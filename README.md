@@ -2,7 +2,7 @@
 🧱 Set up a modern [Siler](https://github.com/leocavalcante/siler) app by running one command.
 
 ```bash
-composer create-project siler/app
+composer create-project siler/app my-app
 ```
 
 ## Scripts
