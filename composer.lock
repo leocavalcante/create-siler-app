@@ -625,16 +625,16 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v5.0.0-BETA5",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "424a2ff61dccf0f98fbefaec252d444411b4bf83"
+                "reference": "a8a1ef97ffa8c41bccff4318036e5e14a76bd87f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/424a2ff61dccf0f98fbefaec252d444411b4bf83",
-                "reference": "424a2ff61dccf0f98fbefaec252d444411b4bf83",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/a8a1ef97ffa8c41bccff4318036e5e14a76bd87f",
+                "reference": "a8a1ef97ffa8c41bccff4318036e5e14a76bd87f",
                 "shasum": ""
             },
             "require": {
@@ -705,7 +705,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-08-09T17:15:39+00:00"
+            "time": "2020-08-25T17:59:40+00:00"
         },
         {
             "name": "pestphp/pest",
@@ -1834,12 +1834,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "fa90d820db8d594157f65ef88d23b23e97575eaa"
+                "reference": "89bed6788d61977969b89d912b5844e8beee09f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/fa90d820db8d594157f65ef88d23b23e97575eaa",
-                "reference": "fa90d820db8d594157f65ef88d23b23e97575eaa",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/89bed6788d61977969b89d912b5844e8beee09f0",
+                "reference": "89bed6788d61977969b89d912b5844e8beee09f0",
                 "shasum": ""
             },
             "conflict": {
@@ -1947,6 +1947,7 @@
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
                 "openid/php-openid": "<2.3",
+                "openmage/magento-lts": "<19.4.6|>=20,<20.0.2",
                 "oro/crm": ">=1.7,<1.7.4",
                 "oro/platform": ">=1.7,<1.7.4",
                 "padraic/humbug_get_contents": "<1.1.2",
@@ -2008,7 +2009,7 @@
                 "sylius/admin-bundle": ">=1,<1.0.17|>=1.1,<1.1.9|>=1.2,<1.2.2",
                 "sylius/grid": ">=1,<1.1.19|>=1.2,<1.2.18|>=1.3,<1.3.13|>=1.4,<1.4.5|>=1.5,<1.5.1",
                 "sylius/grid-bundle": ">=1,<1.1.19|>=1.2,<1.2.18|>=1.3,<1.3.13|>=1.4,<1.4.5|>=1.5,<1.5.1",
-                "sylius/resource-bundle": "<1.3.13|>=1.4,<1.4.6|>=1.5,<1.5.1|>=1.6,<1.6.3",
+                "sylius/resource-bundle": "<1.3.14|>=1.4,<1.4.7|>=1.5,<1.5.2|>=1.6,<1.6.4",
                 "sylius/sylius": "<1.3.16|>=1.4,<1.4.12|>=1.5,<1.5.9|>=1.6,<1.6.5",
                 "symbiote/silverstripe-multivaluefield": ">=3,<3.0.99",
                 "symbiote/silverstripe-versionedfiles": "<=2.0.3",
@@ -2121,7 +2122,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-16T05:16:28+00:00"
+            "time": "2020-08-19T19:01:52+00:00"
         },
         {
             "name": "sebastian/code-unit",
