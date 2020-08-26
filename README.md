@@ -16,5 +16,5 @@ Runs [CLI SAPI built-in web server ](https://www.php.net/manual/en/features.comm
 ### `composer swoole`
 Runs [Swoole web server](https://www.swoole.co.uk/) on port 9501.
 
-#### `docker-composer up`
+#### `docker-compose up`
 Runs [Docker](https://www.docker.com/) using [Dwoole](https://github.com/leocavalcante/dwoole) on port 9501 as well.
