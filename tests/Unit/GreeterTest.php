@@ -3,6 +3,6 @@
 namespace App\Test\Unit;
 
 it('should greet Hello, World!', function () {
-    $hw = new \App\HelloWorld();
+    $hw = new \App\Greeter('Hello, World!');
     assertSame('Hello, World!', $hw->greet());
 });

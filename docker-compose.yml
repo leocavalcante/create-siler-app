@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web:
+    container_name: siler_app
+    image: leocavalcante/dwoole:dev
+    ports:
+      - 9501:9501
+    volumes:
+      - ./:/app
+    environment:
+      - ENTRY_POINT_FILE=/app/srv/swoole.php

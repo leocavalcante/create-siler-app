@@ -13,18 +13,18 @@
     "prefer-stable": true,
     "scripts": {
         "test": "pest",
-        "start": ["Composer\\Config::disableProcessTimeout", "php -S localhost:8080 index.php"]
+        "start": ["Composer\\Config::disableProcessTimeout", "php -S localhost:8080 srv/sapi.php"]
     },
     "require": {
         "leocavalcante/siler": "^1.7",
         "monolog/monolog": "^2.1",
-        "symfony/dotenv": "^5.1"
-    }
-    ,
+        "hassankhan/config": "^2.1"
+    },
     "require-dev": {
         "roave/security-advisories": "dev-master",
         "phpunit/phpunit": "^9.2",
-        "pestphp/pest": "^0.2.3"
+        "pestphp/pest": "^0.2.3",
+        "swoole/ide-helper": "^4.5"
     },
     "autoload": {
         "psr-4": {

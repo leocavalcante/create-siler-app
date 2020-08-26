@@ -2,12 +2,15 @@
 
 namespace App;
 
-use Siler\Route;
-use Siler\Http\Response;
+use Siler\{Route, Http\Response};
 
-require_once __DIR__ . '/bootstrap.php';
+global $etc;
 
-Route\get('/', static function () {
-    $hw = new HelloWorld();
+Route\get('/', static function () use ($etc) {
+    $hw = new Greeter($etc['app']['name']);
     Response\json($hw->greet());
 });
+
+if (!Route\did_match()) {
+    Response\json('Not found', 404);
+}
