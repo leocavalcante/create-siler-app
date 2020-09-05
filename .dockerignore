@@ -1,10 +1,11 @@
 **
 
 !/etc
-/etc/*.local.*
 !/src
 !/srv
 !/var/cache/.gitignore
-!composer.*
+!/var/log/.gitignore
 !bootstrap.php
+!composer.*
 !index.php
+/etc/*.local.*
