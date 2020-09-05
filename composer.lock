@@ -4664,16 +4664,16 @@
         },
         {
             "name": "ramsey/coding-standard",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/coding-standard.git",
-                "reference": "04a21123351963719df514dedb8a9a03efe19d7f"
+                "reference": "f1834d9a8d5c99e48eaaee1646fc65d952bbf019"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/coding-standard/zipball/04a21123351963719df514dedb8a9a03efe19d7f",
-                "reference": "04a21123351963719df514dedb8a9a03efe19d7f",
+                "url": "https://api.github.com/repos/ramsey/coding-standard/zipball/f1834d9a8d5c99e48eaaee1646fc65d952bbf019",
+                "reference": "f1834d9a8d5c99e48eaaee1646fc65d952bbf019",
                 "shasum": ""
             },
             "require": {
@@ -4720,7 +4720,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-08-29T00:47:28+00:00"
+            "time": "2020-09-05T05:19:58+00:00"
         },
         {
             "name": "ramsey/composer-repl",
