@@ -4861,16 +4861,16 @@
         },
         {
             "name": "ramsey/devtools",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/devtools.git",
-                "reference": "2480af3f358db535defe4431e0e7988eb369a638"
+                "reference": "16f7931213b1e3ed8947d91bc07a994382bd219e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/devtools/zipball/2480af3f358db535defe4431e0e7988eb369a638",
-                "reference": "2480af3f358db535defe4431e0e7988eb369a638",
+                "url": "https://api.github.com/repos/ramsey/devtools/zipball/16f7931213b1e3ed8947d91bc07a994382bd219e",
+                "reference": "16f7931213b1e3ed8947d91bc07a994382bd219e",
                 "shasum": ""
             },
             "require": {
@@ -4886,7 +4886,7 @@
                 "phpstan/phpstan-mockery": "^0.12.7",
                 "phpstan/phpstan-phpunit": "^0.12.16",
                 "phpunit/phpunit": "^9.3",
-                "ramsey/coding-standard": "^1.1",
+                "ramsey/coding-standard": "^1.2",
                 "ramsey/composer-repl": "^1.1.1",
                 "ramsey/conventional-commits": "^1.0",
                 "roave/security-advisories": "dev-master",
@@ -4930,7 +4930,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-04T16:13:33+00:00"
+            "time": "2020-09-07T21:29:25+00:00"
         },
         {
             "name": "roave/security-advisories",
