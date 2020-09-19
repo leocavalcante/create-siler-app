@@ -7,6 +7,7 @@ namespace App\Test\Unit;
 use App\Greeter;
 
 use function PHPUnit\Framework\assertSame;
+use function it;
 
 it(
     'should greet Hello, World!',
