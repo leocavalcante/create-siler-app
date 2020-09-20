@@ -11,7 +11,7 @@
     ],
     "require": {
         "hassankhan/config": "^2.1",
-        "leocavalcante/siler": "^1.7",
+        "leocavalcante/siler": "^1.7.5",
         "monolog/monolog": "^2.1"
     },
     "require-dev": {
