@@ -3,11 +3,10 @@
 namespace App;
 
 use Siler\{Route, Http\Response};
+use function Siler\Config\config;
 
-global $etc;
-
-Route\get('/', static function () use ($etc) {
-    $hw = new Greeter($etc['app']['name']);
+Route\get('/', static function () {
+    $hw = new Greeter((string)config('app.name'));
     Response\json($hw->greet());
 });
 

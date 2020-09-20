@@ -5,13 +5,11 @@ namespace App;
 use Siler\Swoole;
 use Swoole\Runtime;
 
-global $etc;
-
 require_once __DIR__ . '/../bootstrap.php';
 
 Runtime::enableCoroutine();
 
-$server = Swoole\http(static function () use ($etc): void {
+$server = Swoole\http(static function (): void {
     require __DIR__ . '/../index.php';
 });
 

@@ -3,12 +3,10 @@
 namespace App;
 
 use Monolog\Handler\StreamHandler;
-use Noodlehaus\Config;
+use Siler\Config;
 use Siler\Monolog as Log;
-
-global $etc;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+Config\load(__DIR__ . '/etc');
 Log\handler(new StreamHandler('php://stdout'));
-$etc = Config::load(__DIR__ . '/etc');
