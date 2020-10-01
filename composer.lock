@@ -2277,16 +2277,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v0.3.6",
+            "version": "v0.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "0fadf9a02c5fcd212a7123f704c7825d2d96a41c"
+                "reference": "4855987ba8f218f04e1bde7e84b68d7d0d7e73b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/0fadf9a02c5fcd212a7123f704c7825d2d96a41c",
-                "reference": "0fadf9a02c5fcd212a7123f704c7825d2d96a41c",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/4855987ba8f218f04e1bde7e84b68d7d0d7e73b9",
+                "reference": "4855987ba8f218f04e1bde7e84b68d7d0d7e73b9",
                 "shasum": ""
             },
             "require": {
@@ -2295,7 +2295,7 @@
                 "pestphp/pest-plugin-coverage": "^0.3",
                 "pestphp/pest-plugin-init": "^0.3",
                 "php": "^7.3 || ^8.0",
-                "phpunit/phpunit": "9.3.7 || 9.3.8 || 9.3.9 || 9.3.10"
+                "phpunit/phpunit": ">= 9.3.7 <= 9.3.11"
             },
             "require-dev": {
                 "illuminate/console": "^7.16.1",
@@ -2364,7 +2364,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-09-21T19:31:32+00:00"
+            "time": "2020-09-30T12:03:23+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
