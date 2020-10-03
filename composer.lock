@@ -66,16 +66,16 @@
         },
         {
             "name": "leocavalcante/siler",
-            "version": "v1.7.6",
+            "version": "v1.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leocavalcante/siler.git",
-                "reference": "b8dfb36b8b4d21fb7d0d67ab3b8f938a54184524"
+                "reference": "70bec4230f036ecd9b32fc100ab48bbea091fab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leocavalcante/siler/zipball/b8dfb36b8b4d21fb7d0d67ab3b8f938a54184524",
-                "reference": "b8dfb36b8b4d21fb7d0d67ab3b8f938a54184524",
+                "url": "https://api.github.com/repos/leocavalcante/siler/zipball/70bec4230f036ecd9b32fc100ab48bbea091fab8",
+                "reference": "70bec4230f036ecd9b32fc100ab48bbea091fab8",
                 "shasum": ""
             },
             "require": {
@@ -171,7 +171,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-28T23:37:41+00:00"
+            "time": "2020-10-02T20:11:41+00:00"
         },
         {
             "name": "monolog/monolog",
