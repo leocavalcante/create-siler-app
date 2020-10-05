@@ -2287,16 +2287,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v0.3.7",
+            "version": "v0.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "4855987ba8f218f04e1bde7e84b68d7d0d7e73b9"
+                "reference": "049ce1845e119c12f888cedfb7b558b75f06598f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/4855987ba8f218f04e1bde7e84b68d7d0d7e73b9",
-                "reference": "4855987ba8f218f04e1bde7e84b68d7d0d7e73b9",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/049ce1845e119c12f888cedfb7b558b75f06598f",
+                "reference": "049ce1845e119c12f888cedfb7b558b75f06598f",
                 "shasum": ""
             },
             "require": {
@@ -2305,7 +2305,7 @@
                 "pestphp/pest-plugin-coverage": "^0.3",
                 "pestphp/pest-plugin-init": "^0.3",
                 "php": "^7.3 || ^8.0",
-                "phpunit/phpunit": ">= 9.3.7 <= 9.3.11"
+                "phpunit/phpunit": ">= 9.3.7 <= 9.4.0"
             },
             "require-dev": {
                 "illuminate/console": "^7.16.1",
@@ -2374,7 +2374,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-09-30T12:03:23+00:00"
+            "time": "2020-10-03T11:27:01+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -4950,12 +4950,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "e859317fce42b1ec2d42b204285beaba541e8dbf"
+                "reference": "107aa9daab3521a0d28f868ff8dc75db546f7ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/e859317fce42b1ec2d42b204285beaba541e8dbf",
-                "reference": "e859317fce42b1ec2d42b204285beaba541e8dbf",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/107aa9daab3521a0d28f868ff8dc75db546f7ee3",
+                "reference": "107aa9daab3521a0d28f868ff8dc75db546f7ee3",
                 "shasum": ""
             },
             "conflict": {
@@ -5015,7 +5015,7 @@
                 "ezsystems/ezplatform-kernel": ">=1,<1.0.2.1",
                 "ezsystems/ezplatform-user": ">=1,<1.0.1",
                 "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.14.2|>=6,<6.7.9.1|>=6.8,<6.13.6.3|>=7,<7.2.4.1|>=7.3,<7.3.2.1|>=7.5,<7.5.7.1",
-                "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.6|>=5.4,<5.4.14.1|>=2011,<2017.12.7.2|>=2018.6,<2018.6.1.4|>=2018.9,<2018.9.1.3|>=2019.3,<2019.3.4.2",
+                "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.6|>=5.4,<5.4.14.2|>=2011,<2017.12.7.3|>=2018.6,<2018.6.1.4|>=2018.9,<2018.9.1.3|>=2019.3,<2019.3.5.1",
                 "ezsystems/platform-ui-assets-bundle": ">=4.2,<4.2.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1",
                 "ezyang/htmlpurifier": "<4.1.1",
@@ -5249,7 +5249,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-02T17:02:13+00:00"
+            "time": "2020-10-05T16:02:42+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -6459,7 +6459,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.1.6",
+            "version": "v5.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -7529,7 +7529,7 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.1.6",
+            "version": "v5.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
