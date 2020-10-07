@@ -66,16 +66,16 @@
         },
         {
             "name": "leocavalcante/siler",
-            "version": "v1.7.7",
+            "version": "v1.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leocavalcante/siler.git",
-                "reference": "70bec4230f036ecd9b32fc100ab48bbea091fab8"
+                "reference": "2e79717c35f0303ce53b7f17e8b3367d4430b1d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leocavalcante/siler/zipball/70bec4230f036ecd9b32fc100ab48bbea091fab8",
-                "reference": "70bec4230f036ecd9b32fc100ab48bbea091fab8",
+                "url": "https://api.github.com/repos/leocavalcante/siler/zipball/2e79717c35f0303ce53b7f17e8b3367d4430b1d7",
+                "reference": "2e79717c35f0303ce53b7f17e8b3367d4430b1d7",
                 "shasum": ""
             },
             "require": {
@@ -171,7 +171,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-02T20:11:41+00:00"
+            "time": "2020-10-07T01:24:12+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4950,12 +4950,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "107aa9daab3521a0d28f868ff8dc75db546f7ee3"
+                "reference": "bf103ea36b619559ced328ebf6c2f099c2585e59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/107aa9daab3521a0d28f868ff8dc75db546f7ee3",
-                "reference": "107aa9daab3521a0d28f868ff8dc75db546f7ee3",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/bf103ea36b619559ced328ebf6c2f099c2585e59",
+                "reference": "bf103ea36b619559ced328ebf6c2f099c2585e59",
                 "shasum": ""
             },
             "conflict": {
@@ -5180,6 +5180,7 @@
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "typo3/phar-stream-wrapper": ">=1,<2.1.1|>=3,<3.1.1",
+                "typo3fluid/fluid": ">=2,<2.0.5|>=2.1,<2.1.4|>=2.2,<2.2.1|>=2.3,<2.3.5|>=2.4,<2.4.1|>=2.5,<2.5.5|>=2.6,<2.6.1",
                 "ua-parser/uap-php": "<3.8",
                 "usmanhalalit/pixie": "<1.0.3|>=2,<2.0.2",
                 "verot/class.upload.php": "<=1.0.3|>=2,<=2.0.4",
@@ -5249,7 +5250,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-05T16:02:42+00:00"
+            "time": "2020-10-07T12:02:57+00:00"
         },
         {
             "name": "sebastian/cli-parser",
