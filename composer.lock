@@ -4873,21 +4873,74 @@
         },
         {
             "name": "ramsey/devtools",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/devtools.git",
-                "reference": "16f7931213b1e3ed8947d91bc07a994382bd219e"
+                "reference": "fd89568ca2df1d2b38c724da01737af9bb0192bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/devtools/zipball/16f7931213b1e3ed8947d91bc07a994382bd219e",
-                "reference": "16f7931213b1e3ed8947d91bc07a994382bd219e",
+                "url": "https://api.github.com/repos/ramsey/devtools/zipball/fd89568ca2df1d2b38c724da01737af9bb0192bf",
+                "reference": "fd89568ca2df1d2b38c724da01737af9bb0192bf",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1 || ^2",
+                "php": "^7.4 || ^8",
+                "ramsey/devtools-lib": "^1.0.1"
+            },
+            "require-dev": {
+                "composer/composer": "^1.1 || ^2.0.0@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                },
+                "class": "Ramsey\\Dev\\Tools\\Composer\\DevToolsPlugin"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                }
+            ],
+            "description": "A Composer plugin to aid PHP library and application development.",
+            "keywords": [
+                "development",
+                "plugin",
+                "tools"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/ramsey",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-09T04:39:50+00:00"
+        },
+        {
+            "name": "ramsey/devtools-lib",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/devtools-lib.git",
+                "reference": "fcf8fb17e8ed4abbb1c75fa8c81fd3c59681474a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/devtools-lib/zipball/fcf8fb17e8ed4abbb1c75fa8c81fd3c59681474a",
+                "reference": "fcf8fb17e8ed4abbb1c75fa8c81fd3c59681474a",
                 "shasum": ""
             },
             "require": {
                 "captainhook/captainhook": "^5.3",
-                "composer-plugin-api": "^1.1 || ^2",
                 "ergebnis/composer-normalize": "^2.7",
                 "hamcrest/hamcrest-php": "^2.0",
                 "mockery/mockery": "^1.4",
@@ -4911,9 +4964,11 @@
             "bin": [
                 "bin/devtools"
             ],
-            "type": "composer-plugin",
+            "type": "library",
             "extra": {
-                "class": "Ramsey\\Dev\\Tools\\Composer\\DevToolsPlugin"
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -4931,7 +4986,7 @@
                     "homepage": "https://benramsey.com"
                 }
             ],
-            "description": "A Composer plugin to aid PHP library and application development.",
+            "description": "The library behind ramsey/devtools, allowing for extension of the ramsey/devtools Composer plugin.",
             "keywords": [
                 "development",
                 "tools"
@@ -4942,7 +4997,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-07T21:29:25+00:00"
+            "time": "2020-10-09T04:04:00+00:00"
         },
         {
             "name": "roave/security-advisories",
