@@ -9,10 +9,28 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php:
+          - "7.3"
+          - "7.4"
+        dependencies:
+          - "lowest"
+          - "highest"
+        experimental:
+          - false
+        include:
+          - php: "8.0"
+            dependencies: "highest"
+            composer-options: "--ignore-platform-reqs"
+            experimental: true
+
     steps:
       - uses: "actions/checkout@v2"
       - uses: "shivammathur/setup-php@v2"
         with:
           php-version: "${{ matrix.php }}"
       - uses: "ramsey/composer-install@v1"
+
+      - name: Run test suite
         run: composer test
