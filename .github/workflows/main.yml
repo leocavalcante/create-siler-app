@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    continue-on-error: ${{ matrix.experimental }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
