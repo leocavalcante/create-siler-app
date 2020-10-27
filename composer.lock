@@ -1820,16 +1820,16 @@
         },
         {
             "name": "m4tthumphrey/php-gitlab-api",
-            "version": "9.19.1",
+            "version": "9.19.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GitLabPHP/Client.git",
-                "reference": "6256ac99a9802e5614b9733c4e4829e33a0a89bf"
+                "reference": "bfeaeef6c69f9f9429bf28925af1a2567f5ae773"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GitLabPHP/Client/zipball/6256ac99a9802e5614b9733c4e4829e33a0a89bf",
-                "reference": "6256ac99a9802e5614b9733c4e4829e33a0a89bf",
+                "url": "https://api.github.com/repos/GitLabPHP/Client/zipball/bfeaeef6c69f9f9429bf28925af1a2567f5ae773",
+                "reference": "bfeaeef6c69f9f9429bf28925af1a2567f5ae773",
                 "shasum": ""
             },
             "require": {
@@ -1894,7 +1894,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-24T18:31:44+00:00"
+            "time": "2020-10-26T11:35:44+00:00"
         },
         {
             "name": "mockery/mockery",
