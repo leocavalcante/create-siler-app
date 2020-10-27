@@ -4700,16 +4700,16 @@
         },
         {
             "name": "ramsey/composer-repl",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/composer-repl.git",
-                "reference": "3ef5248f06c2868de3f748f6f5a85d3fe4d779a1"
+                "reference": "c02bb630162a76f3791cd608f28d4cc2946eb58d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/composer-repl/zipball/3ef5248f06c2868de3f748f6f5a85d3fe4d779a1",
-                "reference": "3ef5248f06c2868de3f748f6f5a85d3fe4d779a1",
+                "url": "https://api.github.com/repos/ramsey/composer-repl/zipball/c02bb630162a76f3791cd608f28d4cc2946eb58d",
+                "reference": "c02bb630162a76f3791cd608f28d4cc2946eb58d",
                 "shasum": ""
             },
             "require": {
@@ -4720,7 +4720,7 @@
                 "symfony/process": "^3 || ^4 || ^5"
             },
             "require-dev": {
-                "composer/composer": "^1.10 || ^2.0.0@dev",
+                "composer/composer": "^1.10 || ^2.0",
                 "ramsey/devtools": "^1.3"
             },
             "bin": [
@@ -4729,9 +4729,17 @@
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-main": "1.x-dev"
                 },
                 "class": "Ramsey\\Dev\\Repl\\Composer\\ReplPlugin",
+                "ramsey/composer-repl": {
+                    "includes": [
+                        "repl.php"
+                    ]
+                },
+                "ramsey/conventional-commits": {
+                    "configFile": "conventional-commits.json"
+                },
                 "ramsey/devtools": {
                     "command-prefix": "dev"
                 }
@@ -4764,7 +4772,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-03T00:03:25+00:00"
+            "time": "2020-10-26T23:14:23+00:00"
         },
         {
             "name": "ramsey/conventional-commits",
