@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "944498428212d5cfb847497e80d83a98",
+    "content-hash": "52ddf60d5f5ed7ebd3c692b4d6155e45",
     "packages": [
         {
             "name": "hassankhan/config",
@@ -7428,16 +7428,16 @@
         },
         {
             "name": "swoole/ide-helper",
-            "version": "4.5.6",
+            "version": "4.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoole/ide-helper.git",
-                "reference": "ab23c2c35880144a6060a3f178a68af0d0c6fc93"
+                "reference": "4ad5772f9db6a6a0fe41068905a0272dcfa5f4d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/ab23c2c35880144a6060a3f178a68af0d0c6fc93",
-                "reference": "ab23c2c35880144a6060a3f178a68af0d0c6fc93",
+                "url": "https://api.github.com/repos/swoole/ide-helper/zipball/4ad5772f9db6a6a0fe41068905a0272dcfa5f4d5",
+                "reference": "4ad5772f9db6a6a0fe41068905a0272dcfa5f4d5",
                 "shasum": ""
             },
             "require-dev": {
@@ -7460,9 +7460,9 @@
             "description": "IDE help files for Swoole.",
             "support": {
                 "issues": "https://github.com/swoole/ide-helper/issues",
-                "source": "https://github.com/swoole/ide-helper/tree/4.5.6"
+                "source": "https://github.com/swoole/ide-helper/tree/4.5.9"
             },
-            "time": "2020-10-27T16:11:26+00:00"
+            "time": "2020-12-01T00:31:09+00:00"
         },
         {
             "name": "symfony/console",
