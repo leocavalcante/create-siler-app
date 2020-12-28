@@ -2774,23 +2774,23 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v0.3.17",
+            "version": "v0.3.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "885d224c5d263f7cbdc7326065c0a59832644c6d"
+                "reference": "26b2e3561a9f76d8918727e7bc34ddf9b977d923"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/885d224c5d263f7cbdc7326065c0a59832644c6d",
-                "reference": "885d224c5d263f7cbdc7326065c0a59832644c6d",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/26b2e3561a9f76d8918727e7bc34ddf9b977d923",
+                "reference": "26b2e3561a9f76d8918727e7bc34ddf9b977d923",
                 "shasum": ""
             },
             "require": {
                 "nunomaduro/collision": "^5.0",
                 "pestphp/pest-plugin": "^0.3",
                 "pestphp/pest-plugin-coverage": "^0.3",
-                "pestphp/pest-plugin-expectations": "^0.3.2",
+                "pestphp/pest-plugin-expectations": "^0.3.3",
                 "pestphp/pest-plugin-init": "^0.3",
                 "php": "^7.3 || ^8.0",
                 "phpunit/phpunit": ">= 9.3.7 <= 9.5.0"
@@ -2808,7 +2808,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4.x-dev"
+                    "dev-master": "0.3.x-dev"
                 },
                 "pest": {
                     "plugins": [
@@ -2851,7 +2851,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v0.3.17"
+                "source": "https://github.com/pestphp/pest/tree/v0.3.19"
             },
             "funding": [
                 {
@@ -2867,7 +2867,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-20T16:22:40+00:00"
+            "time": "2020-12-27T11:36:24+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -3019,16 +3019,16 @@
         },
         {
             "name": "pestphp/pest-plugin-expectations",
-            "version": "v0.3.2",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest-plugin-expectations.git",
-                "reference": "4bef39aef0d36a2b566e279860a11762be90cbf9"
+                "reference": "1d10f8b6d2dced7accffe16eabdee44b1ef90c6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-expectations/zipball/4bef39aef0d36a2b566e279860a11762be90cbf9",
-                "reference": "4bef39aef0d36a2b566e279860a11762be90cbf9",
+                "url": "https://api.github.com/repos/pestphp/pest-plugin-expectations/zipball/1d10f8b6d2dced7accffe16eabdee44b1ef90c6a",
+                "reference": "1d10f8b6d2dced7accffe16eabdee44b1ef90c6a",
                 "shasum": ""
             },
             "require": {
@@ -3042,7 +3042,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4.x-dev"
+                    "dev-master": "0.3.x-dev"
                 }
             },
             "autoload": {
@@ -3068,8 +3068,7 @@
                 "unit"
             ],
             "support": {
-                "issues": "https://github.com/pestphp/pest-plugin-expectations/issues",
-                "source": "https://github.com/pestphp/pest-plugin-expectations/tree/v0.3.2"
+                "source": "https://github.com/pestphp/pest-plugin-expectations/tree/v0.3.3"
             },
             "funding": [
                 {
@@ -3085,7 +3084,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-13T22:08:48+00:00"
+            "time": "2020-12-26T20:28:03+00:00"
         },
         {
             "name": "pestphp/pest-plugin-init",
