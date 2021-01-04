@@ -15,7 +15,7 @@
         "monolog/monolog": "^2.1"
     },
     "require-dev": {
-        "pestphp/pest": "^0.3",
+        "pestphp/pest": "^1.0",
         "phpunit/phpunit": "^9.3",
         "ramsey/devtools": "^1.4",
         "roave/security-advisories": "dev-master",
