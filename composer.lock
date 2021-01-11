@@ -1976,21 +1976,21 @@
         },
         {
             "name": "jawira/case-converter",
-            "version": "v3.4.1",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jawira/case-converter.git",
-                "reference": "756089a523ce268fb173a9f4af4ca95629b3a7f0"
+                "reference": "b32f881bfe30141a82c3b2d6ee466a2f192c7776"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jawira/case-converter/zipball/756089a523ce268fb173a9f4af4ca95629b3a7f0",
-                "reference": "756089a523ce268fb173a9f4af4ca95629b3a7f0",
+                "url": "https://api.github.com/repos/jawira/case-converter/zipball/b32f881bfe30141a82c3b2d6ee466a2f192c7776",
+                "reference": "b32f881bfe30141a82c3b2d6ee466a2f192c7776",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^7.1"
+                "php": ">=7.1"
             },
             "suggest": {
                 "pds/skeleton": "PHP Package Development Standards",
@@ -2032,9 +2032,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jawira/case-converter/issues",
-                "source": "https://github.com/jawira/case-converter/tree/v3.4.1"
+                "source": "https://github.com/jawira/case-converter/tree/v3.4.2"
             },
-            "time": "2019-12-15T14:31:43+00:00"
+            "time": "2021-01-05T08:56:22+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
