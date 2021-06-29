@@ -10,23 +10,28 @@
         }
     ],
     "require": {
-        "hassankhan/config": "^2.1",
-        "leocavalcante/siler": "^1.7.5",
-        "monolog/monolog": "^2.1"
+        "hassankhan/config": "^v2.1.0",
+        "leocavalcante/siler": "^v1.7.9",
+        "monolog/monolog": "^2.2.0"
     },
     "require-dev": {
-        "pestphp/pest": "^0.3",
-        "phpunit/phpunit": "^9.3",
-        "ramsey/devtools": "^1.4",
-        "roave/security-advisories": "dev-master",
-        "swoole/ide-helper": "^4.5"
+        "ocramius/package-versions": "^2.3",
+        "pestphp/pest": "^v1.8.0",
+        "phpunit/phpunit": "^9.5.6",
+        "ramsey/devtools": "^1.6.0",
+        "roave/security-advisories": "dev-latest",
+        "swoole/ide-helper": "^4.6.7"
     },
     "extra": {
         "ramsey/devtools": {
             "commands": {
-                "test:unit": {
+                "lint": {
                     "override": true,
-                    "script": "pest"
+                    "script": "phpcs --cache=./var/cache/phpcs.cache"
+                },
+                "lint:fix": {
+                    "override": true,
+                    "script": "phpcbf --cache=./var/cache/phpcs.cache"
                 },
                 "test:coverage:ci": {
                     "override": true,
@@ -36,13 +41,9 @@
                     "override": true,
                     "script": "pest --colors=always --coverage-html build/coverage/coverage-html"
                 },
-                "lint": {
+                "test:unit": {
                     "override": true,
-                    "script": "phpcs --cache=./var/cache/phpcs.cache"
-                },
-                "lint:fix": {
-                    "override": true,
-                    "script": "phpcbf --cache=./var/cache/phpcs.cache"
+                    "script": "pest"
                 }
             }
         }
